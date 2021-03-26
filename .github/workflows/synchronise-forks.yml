@@ -15,7 +15,7 @@ jobs:
       with:
         github_token: ${{ secrets.REPO_TOKEN }}
         upstream_repository: mingxiaoyu/N1Openwrt
-        upstream_branch: main
+        upstream_branch: master
         target_repository: yndoc/N1Openwrt    #修改成你的帐号/仓库名字
         target_branch: master                                #你仓库的分支
         force: true
